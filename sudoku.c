@@ -50,7 +50,9 @@ void print_node(Node* n){
   }
   printf("\n");
 }
-
+// TENIA ERRORES DE SEGMENTACION CON EL SUDOKU.C 
+// POR ESO TENGO TAN POCO TIEMPO CON EL TEST.SH
+// 
 int is_valid(Node* n){
 
   for (int i = 0; i < 9; i++)
