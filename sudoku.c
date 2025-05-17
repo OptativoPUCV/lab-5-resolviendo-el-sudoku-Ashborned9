@@ -129,8 +129,9 @@ List* get_adj_nodes(Node* n){
             {
               pushBack(list, act);
             }
-            return list;
+            
           }
+          return list;
         }
       }
     }
