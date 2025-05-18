@@ -34,11 +34,6 @@ Node* read_file (char* file_name){
 }
 
 void print_node(Node* n){
-  
-  if (n == NULL) {
-      printf("No solution found.\n");
-      return;
-    }
   int i,j;
   for(i=0;i<9;i++)
   {
